@@ -100,9 +100,30 @@ public class LInked_list {
             System.out.print(" "+ arr[i]);
         }
     }
-    public void reverse(){
+//    public void reverse(){
+//        node previous = head;
+//        node current = previous.next;
+//
+//        while(current != null) {
+//            node next1 = current.next;
+//            current.next = previous;
+//            previous = current;
+//            current = next1;
+//
+//        }
+//    }
+        //converting the list into array and then finding the required element
+        public void KthNodeFromLast(int nodeNum){
+            int num = size - nodeNum ;
+            int[] arr = new int[size];
+            node ptr = head;
+            for(int i = 0 ; i < size ; i++){
+                arr[i] = ptr.item;
+                ptr = ptr.next;
+            }
+            System.out.println(arr[num]);
+        }
 
-    }
 
 
 }
