@@ -15,12 +15,12 @@ public class Main {
         binary.nonRec(Array,4);*/
 
         StringManipilation count = new StringManipilation();
-        count.CountingVowels("Sikarwar");
-        count.StringReversal("Monica is a bad girl");
-        count.StringReversal2("Somya");
-        count.WordReversal("I will do great");
+        count.CountingVowels("Hinderson");
+        count.StringReversal("Bungle in the jungle");
+        count.StringReversal2("Klaus");
+        count.WordReversal("Elijha Michaelson");
         System.out.println(count.Palindrome("radar"));
-        System.out.println(count.isAnagramUsingSorting("somya","aysmo"));
+        System.out.println(count.isAnagramUsingSorting("synaps","ysnaps"));
 
     }
 }
